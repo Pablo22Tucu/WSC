@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>WSC</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <!-- Menu -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">
+                WSC
+                <span class="logo-sub">Llantas & Suspensión</span>
+            </a>
+            <button class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu" id="nav-menu">
+                <li><a href="#section1">SERVICIOS</a></li>
+                <li><a href="#section2">PROMOCIONES</a></li>
+                <li><a href="#gallery">GALERÍA</a></li>
+                <li><a href="#about">SOBRE NOSOTROS</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="hero-section">
+
+        <h1>Bienvenido a nuestro <span class="taller-web">Taller Web</span></h1>
+        
+        <div class="marquee">
+            <p>¡Realiza tu consulta o Reserva tu cita!</p>
+        </div>
+        <div class="cta">
+            <a href="https://wa.me/543517483181" class="btn">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://www.instagram.com/wsc.suspension/" class="btn">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://web.facebook.com/profile.php?id=100087396815536" class="btn">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+        </div>        
+        <p>Explora todos los servicios y promociones que WSC tiene para vos!</p>        
+    </div>
+
+    <!-- Secciones -->
+    
+    <div class="section" id="section1">
+        <div class="section-title">
+            <h1>SERVICIOS</h1>
+        </div>
+        
+        <div class="card-container">
+            <div class="card">                
+                <h2>Car Detailing</h2>
+                <p>Un servicio completo de detailing para tu vehículo, asegurando que cada rincón brille.</p>
+            </div>
+            <div class="card">
+                <h2>Suspensión</h2>
+                <p>Ofrecemos servicios de suspensión para mejorar la estabilidad y confort de tu vehículo.</p>
+            </div>
+            <div class="card">
+                <h2>Frenos</h2>
+                <p>Servicios de frenos para garantizar la seguridad de tu vehículo.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section2">
+        <div class="section-title">
+            <h1>PROMOCIONES</h1>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Descuento en Suspensión</h2>
+                <p>Obtén un 15% de descuento en servicios de suspensión durante este mes.</p>
+            </div>
+            <div class="card">
+                <h2>Alineado y Balanceo</h2>
+                <p>20% de descuento en servicios de alineado y balanceo.</p>
+            </div>
+            <div class="card">
+                <h2>Tarjetas de Crédito</h2>
+                <p>3 y 6 cuotas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="gallery">
+        <div class="section-title">
+            <h1>GALERÍA</h1>
+        </div>
+        <div class="card-container">
+            <div class="card gallery-card">
+                <img src="img/dorada2.jpg" alt="Trabajo de Detailing" class="gallery-img">
+                <button class="zoom-btn" data-img="img/dorada2.jpg" aria-label="Ver imagen en grande">
+                    <i class="fas fa-search-plus"></i>
+                </button>
+                <h2>Detailing Premium</h2>
+                <p>Restauración y limpieza profunda de carrocería y tapizados, dejando el vehículo como nuevo.</p>
+            </div>
+            <div class="card gallery-card">
+                <img src="img/suspencion.jpg" alt="Suspensión deportiva" class="gallery-img">
+                <button class="zoom-btn" data-img="img/suspencion.jpg" aria-label="Ver imagen en grande">
+                    <i class="fas fa-search-plus"></i>
+                </button>
+                <h2>Suspensión Deportiva</h2>
+                <p>Instalación de suspensión deportiva para mejorar el rendimiento y la estética del auto.</p>
+            </div>
+            <div class="card gallery-card">
+                <img src="img/rojo.jpg" alt="Cambio de frenos" class="gallery-img">
+                <button class="zoom-btn" data-img="img/rojo.jpg" aria-label="Ver imagen en grande">
+                    <i class="fas fa-search-plus"></i>
+                </button>
+                <h2>Cambio de Frenos</h2>
+                <p>Reemplazo completo de pastillas y discos para máxima seguridad en el frenado.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="about">
+        <div class="section-title">
+            <h1>SOBRE NOSOTROS</h1>
+        </div>
+        <p>Somos un taller especializado en servicios de suspensión y frenos, ofreciendo atención personalizada y soluciones efectivas para tu vehículo.</p>
+        <p>Nuestra misión es brindar un servicio de alta calidad, garantizando la seguridad y el rendimiento óptimo de tu automóvil.</p>
+        <p>Contamos con un equipo de profesionales altamente capacitados y comprometidos con la satisfacción del cliente.</p>
+    </div>
+
+    <div class="section" id="contact">
+        <div class="section-title">
+            <h1>CONTACTO</h1>
+        </div>
+        <div class="contact-container">
+            <p>¡Estamos aquí para ayudarte!</p>
+            <p>Para consultas o reservas, puedes contactarnos a través de nuestras redes sociales o enviarnos un correo electrónico.</p>
+            <p>Teléfono: <a href="tel:+543517483181">+54 351 7483181</a></p>
+            <p>Email: <a href="mailto:wsc.suspension@gmail.com">wsc.suspension@gmail.com</a></p>
+            <p>Dirección: Calle Ficticia 123, Ciudad, País</p>
+            <p>Horario: Lunes a Viernes de 9:00 a 18:00</p>
+            <p>¡Esperamos verte pronto!</p>
+            <div class="social-links">
+                <a href="https://wa.me/543517483181" class="btn">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/wsc.suspension/" class="btn">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://web.facebook.com/profile.php?id=100087396815536" class="btn">
+                    <i class="fab fa-facebook"></i>
+                </a>                                
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">        
+        <div class="credit">                       
+            <div class="text">
+                <p>&copy; 2025 WSC. Todos los derechos reservados.</p>
+            </div>
+            <div class="developer">                
+                <span>Sitio desarrollado por:</span>
+                <span class="link-bg">
+                    <a href="https://www.linkedin.com/in/pablo-andres-amaya/" target="_blank" rel="noopener noreferrer" class="link">PixelAR</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón volver arriba -->
+    <button id="back-to-top" title="Volver al inicio">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Modal para zoom de imagen -->
+    <div id="gallery-modal" class="gallery-modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img" alt="Imagen ampliada">
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
