@@ -93,15 +93,6 @@ backToTopBtn.addEventListener('click', () => {
 });
 
 
-// Efecto de zoom en la imagen de fondo
-window.addEventListener('scroll', function() {
-    const scrolled = window.scrollY;
-    const bg = document.querySelector('.background-image');
-    // Calcula el factor de escala (ajusta 0.0005 para más o menos zoom)
-    const scale = 1 + scrolled * 0.00001;
-    bg.style.transform = `scale(${scale})`;
-});
-
 // Modal de galería
 document.querySelectorAll('.zoom-btn').forEach(btn => {
     btn.addEventListener('click', function(e) {
