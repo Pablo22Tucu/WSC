@@ -12,6 +12,14 @@ body {
   scroll-behavior: smooth;
   scroll-padding-top: 150px;
 }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgb(70,69,69) url("img/WSC2.jpg") center 0 / cover no-repeat;
+  z-index: -1;
+  pointer-events: none;
+}
 
 /* Fondo */
 .background-image {
